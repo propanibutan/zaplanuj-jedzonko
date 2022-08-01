@@ -1,0 +1,81 @@
+.cta_main_div {
+  height: 249px;
+  color: $color-white;
+  display: flex;
+  justify-content: center;
+  background-color: $color-dark-grey;
+}
+
+.cta_div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.cta_div_content {
+  margin-left: 140px;
+  margin-right: 30px;
+}
+
+.cta_div_button {
+  margin-right: 120px;
+}
+
+.cta_div_content {
+  margin-left: 140px;
+  margin-right: 30px;
+}
+
+.cta_div_button {
+  margin-right: 120px;
+  margin-left: 55px;
+}
+
+.cta_button {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 6px;
+  background-color: $color-crazy-orange;
+  color: $color-white;
+  height: 55px;
+  width: 214px;
+  border: transparent;
+  //background-color: $color-crazy-orange;
+  //color: $color-white;
+  //font-weight: bold;
+  //display: inline-block;
+  //border-radius: var(--button-radius);
+  //border: none;
+  //margin: 0 auto;
+  //padding: 15px 60px;
+  //word-break: unset;
+}
+
+.cta_div_content_h3 {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+.cta_div_content_p{
+ font-size: 22px;
+}
+
+//.cta_h3_content {
+//  margin-bottom: 23px;
+//}
+//<div class="cta_main_div container">
+//<div class="cta_div">
+//
+//<div class="cta_div_content">
+//<h3 class="cta_div_content_h3">Lorem ipsum dolor sit amet</h3>
+//<p class="cta_div_content_p">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+//</div>
+//
+//
+//<div class="cta_div_button">
+//<button class="cta_button">Lorem ipsum</button>
+//</div>
+//
+//</div>
+//</div>

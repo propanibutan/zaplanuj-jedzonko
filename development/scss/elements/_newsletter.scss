@@ -1,0 +1,40 @@
+@import "../settings/colors.scss";
+
+.newsletter {
+  display: flex;
+  height: 150px;
+  background-color: $color-dark-grey;
+  justify-content: space-around;
+  align-items: center;
+
+
+  &__form {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+  }
+
+  &__form__input {
+    font-size: 32px;
+    padding: 0 10px;
+    display: inline-block;
+    height: 51px;
+  }
+
+  &__form__button {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 6px;
+    background-color: $color-crazy-orange;
+    color: $color-white;
+    height: 49px;
+    width: 165px;
+    border: transparent;
+  }
+}
+
+.newsletter > h3 {
+  color: $color-white;
+  font-size: 45px;
+  margin-left: 120px;
+}

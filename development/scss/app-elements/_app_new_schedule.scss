@@ -1,0 +1,78 @@
+@import "../settings/_colors.scss";
+
+#adding-plan .main-app-desktop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  &__info {
+    width: 65.5rem;
+    margin: 9px 0 17px 8px;
+    &__p__week {
+      margin-top: 75px;
+      width: 190px;
+    }
+    &__input__week {
+      width: 30px;
+      height: 30px;
+      margin-top: 20px;
+      margin-left: 5px;
+      text-align: center;
+    }
+    textarea::placeholder {
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+}
+
+.new-schedule-table_container {
+    width: 65.5rem;
+    margin-left: 8px;
+}
+
+.new-schedule-table_table {
+  width: 65.5rem;
+  border-collapse: separate;
+    thead tr {
+      th {
+        font-size: 20px;
+        word-spacing: 100vw;
+        line-height: 27px;
+        width: 132px;
+        height: 57px;
+        border-bottom: solid 1px $color-light-grey-2;
+        border-top: solid 1px $color-light-grey-2;
+      }
+
+      .new-schedule-table_header__first-child {
+        border-top: none;
+      }
+    }
+    tbody {
+      tr {
+        height: 39px;
+        td {
+          font-size: 14px;
+          border-bottom: solid 1px $color-light-grey-2;
+          vertical-align: middle;
+          padding: 3px 0 7px;
+          select {
+            width: 132px;
+            height: 23px;
+            border-radius: 5px;
+            border-color: rgb(200, 200, 200);
+            border-width: 1px;
+            box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px inset;
+            text-align: center;
+            text-align-last: center;
+            color: rgb(102, 102, 102);
+            option{
+              min-height: 25px;
+            }
+          }
+        }
+        .new-schedule-table__day-of-the-week {
+          font-size: 16px;
+        }
+      }
+    }
+}

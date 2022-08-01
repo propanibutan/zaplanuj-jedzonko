@@ -1,0 +1,109 @@
+@import "../settings/_colors.scss";
+
+.footer-container{
+  width: 100%;
+  margin:auto;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer{
+  width: 100%;
+  margin:auto;
+  background-color: $color-dark-grey;
+  padding: 70px 0;
+}
+.footer-col{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h3{
+  color: $color-white;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col p {
+  color: $color-white;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: $color-white;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: $color-dark-grey;
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: $color-white;
+  transition: all 0.5s ease;
+}
+
+.footer-input {
+  display: flex;
+  align-items: center;
+}
+
+.footer-input > .input-text {
+  font-size: 32px;
+  padding: 0 10px;
+  display: inline-block;
+  height: 37px;
+  width: 177px;
+}
+
+.footer-input-button {
+  display: inline-block;
+  font-size: 20px;
+  background-color: $color-crazy-orange;
+  color: $color-white;
+  height: 35px;
+  width: 88px;
+  border: transparent;
+}
+
+.footer-col-icon {
+  display: flex;
+  align-items: flex-start;
+  width: 180px;
+  height: 120px;
+  gap: 45px;
+  margin-top: 37px;
+  margin-left: 9px;
+}
+
+.copyright {
+  width: 100%;
+  height: 50px;
+  color: white;
+  padding: 2px;
+  background-color: #24262b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#copyright-footer {
+  color: #FF6600;
+  padding: 5px;
+}

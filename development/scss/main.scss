@@ -1,0 +1,41 @@
+@import "generic/reset.scss"; //reset - NIE DOTYKAJ TEGO!!!!
+@import "generic/grid.scss";
+@import "./development/fonts/scss/fontawesome.scss";
+@import "./development/fonts/scss/solid.scss";
+@import "./development/fonts/scss/brands.scss";//fonty awsome do tych pierdółek typu strzalki squery z fb i tt, plusy, minusy, drukarki
+
+@import "settings/colors.scss"; //zmienne z kolorami
+
+@import "elements/base.scss"; //tutaj szukaj styli bazowych ustawionych dla całej strony
+@import "elements/fonts.scss"; //fonty
+@import "elements/logo.scss"; //tutaj ściągnęłam logo z snipettów (można usunąć jeżeli nie będzie potrzebne)
+@import "elements/header.scss";
+@import "elements/carosuel.scss"; //karuzela
+@import "elements/cta.scss"; // call to action section
+@import "elements/features.scss";
+@import "elements/newsletter.scss";
+@import "elements/about.scss"; //about author
+@import "elements/footer.scss";
+
+//APP
+@import "app-elements/app-main-page.scss";
+@import "app-elements/pulpit.scss";
+@import "app-elements/app-new-recipe.scss";
+@import "app-elements/app_new_schedule.scss";
+@import "app-elements/recipes_list.scss";
+@import "app-elements/schedules";
+
+
+
+
+
+
+
+
+// CDN FONTAWESOME
+// <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+//
+// JAK UŻYWAĆ FONTÓW AWSOME PO MOIM IMPORCIE W SASSIE - DZIAŁ "ADDING ICONS":
+// https://fontawesome.com/how-to-use/on-the-web/using-with/sass
+
+

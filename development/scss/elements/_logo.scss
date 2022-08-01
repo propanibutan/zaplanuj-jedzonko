@@ -1,0 +1,15 @@
+@import "_fonts.scss";
+
+h1{
+  font-family: Charmonman;
+  margin-left: 27px;
+}
+
+#first{
+  font-weight:100;
+  color: $color-white;
+}
+#second{
+  color: $color-crazy-orange;
+  font-weight: 700;
+}

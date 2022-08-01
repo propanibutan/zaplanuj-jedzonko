@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Zaplanuj Jedzonko</title>
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+<body>
+<div class="grid-container">
+    <div class="row">
+        <div class="col-12">
+            <header class="app-header page-header">
+                <h1 class="app-header_title">
+                    <a href="index.html">
+                        <span id="first">Zaplanuj</span>
+                        <span id="second">Jedzonko</span>
+                    </a>
+                </h1>
+                <div class="user-info">
+                    <h3 class="user-info_name">Imię</h3>
+                    <svg class="user-info_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c39.77 0 72 32.24 72 72S295.8 272 256 272c-39.76 0-72-32.24-72-72S216.2 128 256 128zM256 448c-52.93 0-100.9-21.53-135.7-56.29C136.5 349.9 176.5 320 224 320h64c47.54 0 87.54 29.88 103.7 71.71C356.9 426.5 308.9 448 256 448z"/>
+                    </svg>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <nav class="navigation-bar">
+                <ul>
+                    <li class="navigation-bar_helper"><a class="navigation-bar_link" href="app.html">Pulpit</a></li>
+                    <li class="navigation-bar_helper"><a class="navigation-bar_link" href="recipes.html">Przepisy</a>
+                    </li>
+                    <li class="navigation-bar_helper"><a class="navigation-bar_link" href="schedules.html">Plany</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-10">
+            <div class="main-app-section">
+                <section class="main-app-desktop">
+
+                    <div class="recipes_list_main">
+
+                        <div class="recipes_list_header">
+                            <div class="recipes_list_header_container">
+                                <p class="recipes_list_header_p">Lista przepisów</p>
+                                <div class="recipes_list_header_icon">
+                                    <svg class="recipes_list_header_svg">
+                                        <svg style="fill: #468966" xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 448 512">
+                                            <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path d="M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM224 368C237.3 368 248 357.3 248 344V280H312C325.3 280 336 269.3 336 256C336 242.7 325.3 232 312 232H248V168C248 154.7 237.3 144 224 144C210.7 144 200 154.7 200 168V232H136C122.7 232 112 242.7 112 256C112 269.3 122.7 280 136 280H200V344C200 357.3 210.7 368 224 368z"/>
+                                        </svg>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="recipes_list_content">
+
+                            <table>
+                                <tbody>
+                                <tr class="recipes_list_table_header">
+                                    <td class="recipes_list_table_td recipes_list_table_td1">
+                                        <div>
+                                            <p class="div_p">ID</p>
+                                        </div>
+                                    </td>
+                                    <td class="recipes_list_table_td recipes_list_table_td2">
+                                        <div>
+                                            NAZWA
+                                        </div>
+                                    </td>
+                                    <td class="recipes_list_table_td recipes_list_table_td3">
+                                        <div>
+                                            OPIS
+                                        </div>
+                                    </td>
+                                    <td class="recipes_list_table_td recipes_list_table_td4">
+                                        <div>
+                                            AKCJE
+                                        </div>
+                                    </td>
+                                </tr>
+                                <div>
+                                    <tr class="recipes_list_table_row">
+                                        <td>
+                                            <p class="table_text">1</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text table_text_name">Zapiekanka z ziemniakami i
+                                                brukselką</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text">
+                                                Mamusina najlepsza zapiekanka pod słońcem. Można ją podać jako główne
+                                                danie
+                                                albo jako kolację. W zapiekance możesz użyć również kiełbasy paprykowej
+                                                sprawi ona, że zapiekanka będzie ostrzejsza w smaku. Zgodnie z
+                                                zalecanimi
+                                                Makłowicza, podawać z dobrze dobranym winkiem ;)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <div class="action_div">
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #FFB03B" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V299.6L289.3 394.3C281.1 402.5 275.3 412.8 272.5 424.1L257.4 484.2C255.1 493.6 255.7 503.2 258.8 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM564.1 250.1C579.8 265.7 579.8 291 564.1 306.7L534.7 336.1L463.8 265.1L493.2 235.7C508.8 220.1 534.1 220.1 549.8 235.7L564.1 250.1zM311.9 416.1L441.1 287.8L512.1 358.7L382.9 487.9C378.8 492 373.6 494.9 368 496.3L307.9 511.4C302.4 512.7 296.7 511.1 292.7 507.2C288.7 503.2 287.1 497.4 288.5 491.1L303.5 431.8C304.9 426.2 307.8 421.1 311.9 416.1V416.1z"/></svg>
+                                                </div>
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #BD4932" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 400C160 408.8 152.8 416 144 416C135.2 416 128 408.8 128 400V192C128 183.2 135.2 176 144 176C152.8 176 160 183.2 160 192V400zM240 400C240 408.8 232.8 416 224 416C215.2 416 208 408.8 208 400V192C208 183.2 215.2 176 224 176C232.8 176 240 183.2 240 192V400zM320 400C320 408.8 312.8 416 304 416C295.2 416 288 408.8 288 400V192C288 183.2 295.2 176 304 176C312.8 176 320 183.2 320 192V400zM317.5 24.94L354.2 80H424C437.3 80 448 90.75 448 104C448 117.3 437.3 128 424 128H416V432C416 476.2 380.2 512 336 512H112C67.82 512 32 476.2 32 432V128H24C10.75 128 0 117.3 0 104C0 90.75 10.75 80 24 80H93.82L130.5 24.94C140.9 9.357 158.4 0 177.1 0H270.9C289.6 0 307.1 9.358 317.5 24.94H317.5zM151.5 80H296.5L277.5 51.56C276 49.34 273.5 48 270.9 48H177.1C174.5 48 171.1 49.34 170.5 51.56L151.5 80zM80 432C80 449.7 94.33 464 112 464H336C353.7 464 368 449.7 368 432V128H80V432z"/></svg>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="recipes_list_table_row">
+                                        <td>
+                                            <p class="table_text">1</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text table_text_name">Zapiekanka z ziemniakami i
+                                                brukselką</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text">
+                                                Mamusina najlepsza zapiekanka pod słońcem. Można ją podać jako główne
+                                                danie
+                                                albo jako kolację. W zapiekance możesz użyć również kiełbasy paprykowej
+                                                sprawi ona, że zapiekanka będzie ostrzejsza w smaku. Zgodnie z
+                                                zalecanimi
+                                                Makłowicza, podawać z dobrze dobranym winkiem ;)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <div class="action_div">
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #FFB03B" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V299.6L289.3 394.3C281.1 402.5 275.3 412.8 272.5 424.1L257.4 484.2C255.1 493.6 255.7 503.2 258.8 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM564.1 250.1C579.8 265.7 579.8 291 564.1 306.7L534.7 336.1L463.8 265.1L493.2 235.7C508.8 220.1 534.1 220.1 549.8 235.7L564.1 250.1zM311.9 416.1L441.1 287.8L512.1 358.7L382.9 487.9C378.8 492 373.6 494.9 368 496.3L307.9 511.4C302.4 512.7 296.7 511.1 292.7 507.2C288.7 503.2 287.1 497.4 288.5 491.1L303.5 431.8C304.9 426.2 307.8 421.1 311.9 416.1V416.1z"/></svg>
+                                                </div>
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #BD4932" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 400C160 408.8 152.8 416 144 416C135.2 416 128 408.8 128 400V192C128 183.2 135.2 176 144 176C152.8 176 160 183.2 160 192V400zM240 400C240 408.8 232.8 416 224 416C215.2 416 208 408.8 208 400V192C208 183.2 215.2 176 224 176C232.8 176 240 183.2 240 192V400zM320 400C320 408.8 312.8 416 304 416C295.2 416 288 408.8 288 400V192C288 183.2 295.2 176 304 176C312.8 176 320 183.2 320 192V400zM317.5 24.94L354.2 80H424C437.3 80 448 90.75 448 104C448 117.3 437.3 128 424 128H416V432C416 476.2 380.2 512 336 512H112C67.82 512 32 476.2 32 432V128H24C10.75 128 0 117.3 0 104C0 90.75 10.75 80 24 80H93.82L130.5 24.94C140.9 9.357 158.4 0 177.1 0H270.9C289.6 0 307.1 9.358 317.5 24.94H317.5zM151.5 80H296.5L277.5 51.56C276 49.34 273.5 48 270.9 48H177.1C174.5 48 171.1 49.34 170.5 51.56L151.5 80zM80 432C80 449.7 94.33 464 112 464H336C353.7 464 368 449.7 368 432V128H80V432z"/></svg>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="recipes_list_table_row">
+                                        <td>
+                                            <p class="table_text">1</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text table_text_name">Zapiekanka z ziemniakami i
+                                                brukselką</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text">
+                                                Mamusina najlepsza zapiekanka pod słońcem. Można ją podać jako główne
+                                                danie
+                                                albo jako kolację. W zapiekance możesz użyć również kiełbasy paprykowej
+                                                sprawi ona, że zapiekanka będzie ostrzejsza w smaku. Zgodnie z
+                                                zalecanimi
+                                                Makłowicza, podawać z dobrze dobranym winkiem ;)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <div class="action_div">
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #FFB03B" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V299.6L289.3 394.3C281.1 402.5 275.3 412.8 272.5 424.1L257.4 484.2C255.1 493.6 255.7 503.2 258.8 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM564.1 250.1C579.8 265.7 579.8 291 564.1 306.7L534.7 336.1L463.8 265.1L493.2 235.7C508.8 220.1 534.1 220.1 549.8 235.7L564.1 250.1zM311.9 416.1L441.1 287.8L512.1 358.7L382.9 487.9C378.8 492 373.6 494.9 368 496.3L307.9 511.4C302.4 512.7 296.7 511.1 292.7 507.2C288.7 503.2 287.1 497.4 288.5 491.1L303.5 431.8C304.9 426.2 307.8 421.1 311.9 416.1V416.1z"/></svg>
+                                                </div>
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #BD4932" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 400C160 408.8 152.8 416 144 416C135.2 416 128 408.8 128 400V192C128 183.2 135.2 176 144 176C152.8 176 160 183.2 160 192V400zM240 400C240 408.8 232.8 416 224 416C215.2 416 208 408.8 208 400V192C208 183.2 215.2 176 224 176C232.8 176 240 183.2 240 192V400zM320 400C320 408.8 312.8 416 304 416C295.2 416 288 408.8 288 400V192C288 183.2 295.2 176 304 176C312.8 176 320 183.2 320 192V400zM317.5 24.94L354.2 80H424C437.3 80 448 90.75 448 104C448 117.3 437.3 128 424 128H416V432C416 476.2 380.2 512 336 512H112C67.82 512 32 476.2 32 432V128H24C10.75 128 0 117.3 0 104C0 90.75 10.75 80 24 80H93.82L130.5 24.94C140.9 9.357 158.4 0 177.1 0H270.9C289.6 0 307.1 9.358 317.5 24.94H317.5zM151.5 80H296.5L277.5 51.56C276 49.34 273.5 48 270.9 48H177.1C174.5 48 171.1 49.34 170.5 51.56L151.5 80zM80 432C80 449.7 94.33 464 112 464H336C353.7 464 368 449.7 368 432V128H80V432z"/></svg>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="recipes_list_table_row">
+                                        <td>
+                                            <p class="table_text">1</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text table_text_name">Zapiekanka z ziemniakami i
+                                                brukselką</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text">
+                                                Mamusina najlepsza zapiekanka pod słońcem. Można ją podać jako główne
+                                                danie
+                                                albo jako kolację. W zapiekance możesz użyć również kiełbasy paprykowej
+                                                sprawi ona, że zapiekanka będzie ostrzejsza w smaku. Zgodnie z
+                                                zalecanimi
+                                                Makłowicza, podawać z dobrze dobranym winkiem ;)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <div class="action_div">
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #FFB03B" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V299.6L289.3 394.3C281.1 402.5 275.3 412.8 272.5 424.1L257.4 484.2C255.1 493.6 255.7 503.2 258.8 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM564.1 250.1C579.8 265.7 579.8 291 564.1 306.7L534.7 336.1L463.8 265.1L493.2 235.7C508.8 220.1 534.1 220.1 549.8 235.7L564.1 250.1zM311.9 416.1L441.1 287.8L512.1 358.7L382.9 487.9C378.8 492 373.6 494.9 368 496.3L307.9 511.4C302.4 512.7 296.7 511.1 292.7 507.2C288.7 503.2 287.1 497.4 288.5 491.1L303.5 431.8C304.9 426.2 307.8 421.1 311.9 416.1V416.1z"/></svg>
+                                                </div>
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #BD4932" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 400C160 408.8 152.8 416 144 416C135.2 416 128 408.8 128 400V192C128 183.2 135.2 176 144 176C152.8 176 160 183.2 160 192V400zM240 400C240 408.8 232.8 416 224 416C215.2 416 208 408.8 208 400V192C208 183.2 215.2 176 224 176C232.8 176 240 183.2 240 192V400zM320 400C320 408.8 312.8 416 304 416C295.2 416 288 408.8 288 400V192C288 183.2 295.2 176 304 176C312.8 176 320 183.2 320 192V400zM317.5 24.94L354.2 80H424C437.3 80 448 90.75 448 104C448 117.3 437.3 128 424 128H416V432C416 476.2 380.2 512 336 512H112C67.82 512 32 476.2 32 432V128H24C10.75 128 0 117.3 0 104C0 90.75 10.75 80 24 80H93.82L130.5 24.94C140.9 9.357 158.4 0 177.1 0H270.9C289.6 0 307.1 9.358 317.5 24.94H317.5zM151.5 80H296.5L277.5 51.56C276 49.34 273.5 48 270.9 48H177.1C174.5 48 171.1 49.34 170.5 51.56L151.5 80zM80 432C80 449.7 94.33 464 112 464H336C353.7 464 368 449.7 368 432V128H80V432z"/></svg>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="recipes_list_table_row">
+                                        <td>
+                                            <p class="table_text">1</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text table_text_name">Zapiekanka z ziemniakami i
+                                                brukselką</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text">
+                                                Mamusina najlepsza zapiekanka pod słońcem. Można ją podać jako główne
+                                                danie
+                                                albo jako kolację. W zapiekance możesz użyć również kiełbasy paprykowej
+                                                sprawi ona, że zapiekanka będzie ostrzejsza w smaku. Zgodnie z
+                                                zalecanimi
+                                                Makłowicza, podawać z dobrze dobranym winkiem ;)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <div class="action_div">
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #FFB03B" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V299.6L289.3 394.3C281.1 402.5 275.3 412.8 272.5 424.1L257.4 484.2C255.1 493.6 255.7 503.2 258.8 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM564.1 250.1C579.8 265.7 579.8 291 564.1 306.7L534.7 336.1L463.8 265.1L493.2 235.7C508.8 220.1 534.1 220.1 549.8 235.7L564.1 250.1zM311.9 416.1L441.1 287.8L512.1 358.7L382.9 487.9C378.8 492 373.6 494.9 368 496.3L307.9 511.4C302.4 512.7 296.7 511.1 292.7 507.2C288.7 503.2 287.1 497.4 288.5 491.1L303.5 431.8C304.9 426.2 307.8 421.1 311.9 416.1V416.1z"/></svg>
+                                                </div>
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #BD4932" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 400C160 408.8 152.8 416 144 416C135.2 416 128 408.8 128 400V192C128 183.2 135.2 176 144 176C152.8 176 160 183.2 160 192V400zM240 400C240 408.8 232.8 416 224 416C215.2 416 208 408.8 208 400V192C208 183.2 215.2 176 224 176C232.8 176 240 183.2 240 192V400zM320 400C320 408.8 312.8 416 304 416C295.2 416 288 408.8 288 400V192C288 183.2 295.2 176 304 176C312.8 176 320 183.2 320 192V400zM317.5 24.94L354.2 80H424C437.3 80 448 90.75 448 104C448 117.3 437.3 128 424 128H416V432C416 476.2 380.2 512 336 512H112C67.82 512 32 476.2 32 432V128H24C10.75 128 0 117.3 0 104C0 90.75 10.75 80 24 80H93.82L130.5 24.94C140.9 9.357 158.4 0 177.1 0H270.9C289.6 0 307.1 9.358 317.5 24.94H317.5zM151.5 80H296.5L277.5 51.56C276 49.34 273.5 48 270.9 48H177.1C174.5 48 171.1 49.34 170.5 51.56L151.5 80zM80 432C80 449.7 94.33 464 112 464H336C353.7 464 368 449.7 368 432V128H80V432z"/></svg>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="recipes_list_table_row">
+                                        <td>
+                                            <p class="table_text">1</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text table_text_name">Zapiekanka z ziemniakami i
+                                                brukselką</p>
+                                        </td>
+                                        <td>
+                                            <p class="table_text">
+                                                Mamusina najlepsza zapiekanka pod słońcem. Można ją podać jako główne
+                                                danie
+                                                albo jako kolację. W zapiekance możesz użyć również kiełbasy paprykowej
+                                                sprawi ona, że zapiekanka będzie ostrzejsza w smaku. Zgodnie z
+                                                zalecanimi
+                                                Makłowicza, podawać z dobrze dobranym winkiem ;)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <div class="action_div">
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #FFB03B" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V299.6L289.3 394.3C281.1 402.5 275.3 412.8 272.5 424.1L257.4 484.2C255.1 493.6 255.7 503.2 258.8 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM564.1 250.1C579.8 265.7 579.8 291 564.1 306.7L534.7 336.1L463.8 265.1L493.2 235.7C508.8 220.1 534.1 220.1 549.8 235.7L564.1 250.1zM311.9 416.1L441.1 287.8L512.1 358.7L382.9 487.9C378.8 492 373.6 494.9 368 496.3L307.9 511.4C302.4 512.7 296.7 511.1 292.7 507.2C288.7 503.2 287.1 497.4 288.5 491.1L303.5 431.8C304.9 426.2 307.8 421.1 311.9 416.1V416.1z"/></svg>
+                                                </div>
+                                                <div>
+                                                    <svg class="recipes_list_action_svg"><svg style="fill: #BD4932" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 400C160 408.8 152.8 416 144 416C135.2 416 128 408.8 128 400V192C128 183.2 135.2 176 144 176C152.8 176 160 183.2 160 192V400zM240 400C240 408.8 232.8 416 224 416C215.2 416 208 408.8 208 400V192C208 183.2 215.2 176 224 176C232.8 176 240 183.2 240 192V400zM320 400C320 408.8 312.8 416 304 416C295.2 416 288 408.8 288 400V192C288 183.2 295.2 176 304 176C312.8 176 320 183.2 320 192V400zM317.5 24.94L354.2 80H424C437.3 80 448 90.75 448 104C448 117.3 437.3 128 424 128H416V432C416 476.2 380.2 512 336 512H112C67.82 512 32 476.2 32 432V128H24C10.75 128 0 117.3 0 104C0 90.75 10.75 80 24 80H93.82L130.5 24.94C140.9 9.357 158.4 0 177.1 0H270.9C289.6 0 307.1 9.358 317.5 24.94H317.5zM151.5 80H296.5L277.5 51.56C276 49.34 273.5 48 270.9 48H177.1C174.5 48 171.1 49.34 170.5 51.56L151.5 80zM80 432C80 449.7 94.33 464 112 464H336C353.7 464 368 449.7 368 432V128H80V432z"/></svg>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </div>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+
+
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/app.js"></script>
+</body>
+</html>

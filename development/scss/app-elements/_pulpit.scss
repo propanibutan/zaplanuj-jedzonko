@@ -1,0 +1,243 @@
+@import "../settings/_colors.scss";
+
+.table_planner_body {
+    background-color: #fffffa;
+    border-left: 30px solid #fffffa;
+    border-right: 30px solid #fffffa;
+    box-sizing: content-box;
+    padding: 0 47px;
+}
+
+.table_container {
+    box-sizing: content-box;
+    margin:20px 0 20px 0;
+    border: 1px dashed lightgray;
+}
+
+tr {
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.table_planner {
+    width: 1066px;
+    height: 436px;
+    padding: 0 20px;
+}
+
+.table_planner_row {
+    color: #a1a194;
+    text-align: left;
+    border-bottom: 1px ridge lightgray;
+}
+
+.table_planner_header {
+    color: $color-crazy-orange;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table_planner_row_weekdays {
+    font-weight: bold;
+    color: #5b605f;
+    font-size: 24px;
+    text-align: center;
+}
+
+.table_planner_footer_next_p {
+    color: $color-crazy-orange;
+    padding: 0px 18px 0px 0px;
+    text-align: right;
+}
+
+.table_planner_footer_previous_p {
+    color: $color-crazy-orange;
+    text-align: left;
+    padding: 0px 0px 0px 18px;
+}
+
+th, tr {
+    vertical-align: middle;
+}
+
+.table_planner_footer {
+    border-bottom: none;
+}
+
+.widgets {
+    height: 176px;
+    width: 414px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget_add {
+    width: 193px;
+    height: 171px;
+    background-color: #fffffa;
+    border: 1px dotted $color-green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.widget_add_button {
+    width: 127px;
+    height: 103px;
+}
+
+.widget_image{
+    height: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.widget_div_text {
+    display: flex;
+    justify-content: center;
+}
+
+.widget_add_text {
+    color: $color-green;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.add_button_element {
+    width: 80px;
+    height: 80px;
+}
+
+.widgets_alerts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pulpit_alerts {
+    width: 631px;
+    height: 170px;
+}
+
+.pulpit_alert {
+    width: 631px;
+    height: 49px;
+    border: 1px solid green;
+    margin-bottom: 12px;
+}
+
+.pulpit_alert {
+    background-color: #fffffa;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.alert1 {
+    border: 1px dotted $color-blue;
+}
+
+.alert2 {
+    border: 1px dotted $color-yellow;
+}
+
+.alert3 {
+    border: 1px dotted $color-green;
+}
+
+.alert1_element1{
+    width: 35px;
+    height: 35px;
+}
+
+.alert2_element1 {
+    width: 35px;
+    height: 35px;
+}
+
+.alert3_element1 {
+    width: 35px;
+    height: 35px;
+}
+
+.alert1_p {
+    font-size: 19px;
+    font-weight: bold;
+    color: $color-blue;
+}
+
+.alert2_p {
+    font-size: 19px;
+    font-weight: bold;
+    color: $color-yellow;
+}
+
+.alert3_p {
+     font-size: 19px;
+     font-weight: bold;
+    color: $color-green;
+ }
+
+.alert_x {
+    width: 20px;
+    height: 20px;
+}
+
+.pulpit_alert_element1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47px;
+    height: 47px;
+    margin-right: 15px;
+}
+
+.pulpit_alert_element2 {
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.pulpit_alert_element3 {
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.alert1_div_p {
+    display: flex;
+    //justify-content: center;
+    //align-items: center;
+    flex:1;
+}
+
+.alert2_div_p {
+    display: flex;
+    //justify-content: center;
+    //align-items: center;
+    flex:1;
+}
+
+.alert3_div_p {
+    display: flex;
+    //justify-content: center;
+    //align-items: center;
+    flex:1;
+}
+
+.alert_x_div {
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

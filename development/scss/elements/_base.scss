@@ -1,0 +1,32 @@
+@import "_fonts.scss";
+@import "../settings/colors.scss";
+
+html {
+  font-family: 'Open Sans', sans-serif; //tekst
+  font-size: 14px; // wielkość bazowa fontow
+}
+
+body {
+  margin: 0 auto;
+}
+
+//widze ze strona ma max 1440px szerokości ale nie wiem czy tego czasami nie ustawić w jakimś głównym kontenerze(.container)
+.container {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+  color: $color-white;
+}
+

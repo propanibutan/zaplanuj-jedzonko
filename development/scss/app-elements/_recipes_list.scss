@@ -1,0 +1,133 @@
+@import "./development/scss/settings/colors.scss";
+
+.recipes_list_main {
+  width: 1064px;
+  height: 620px;
+  background-color: #fffffa;
+  border: dashed 1px $color-light-grey-2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.recipes_list_header {
+  width: 996px;
+  height: 33px;
+  margin-bottom: 25px;
+}
+
+.recipes_list_header_container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid lightgray;
+}
+
+.recipes_list_header_p {
+  color: $color-crazy-orange;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.recipes_list_content {
+  width: 996px;
+  height: 540px;
+  overflow-y: scroll;
+
+  table {
+    margin: 0 15px;
+  }
+
+  //border: 1px solid green;
+}
+
+.recipes_list_header_svg {
+  width: 32px;
+  height: 32px;
+}
+
+.recipes_list_table_td {
+  color: $color-dark-grey;
+  font-size: 20px;
+  font-weight: bold;
+
+  div {
+    margin: 15px 0;
+  }
+}
+
+.recipes_list_table_td1 {
+  div {
+    margin-left: 10px;
+  }
+
+  width: 73px;
+}
+
+.recipes_list_table_td2 {
+  width: 200px;
+}
+
+.recipes_list_table_td3 {
+  width: 580px;
+}
+
+.recipes_list_table_td4 {
+  width: 70px;
+}
+
+.recipes_list_table_header {
+  padding: 10px 0px 10px 0px;
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+
+}
+
+.table_text {
+  margin-right: 15px;
+  text-align: justify;
+  line-height: 18px;
+  color: $color-light-grey-2;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.table_text_name {
+  text-align: left;
+}
+
+.recipes_list_table_row {
+  border-bottom: 1px solid lightgray;
+
+  & td:first-child p {
+    margin-left: 10px;
+  }
+}
+
+.action_div {
+  display: flex;
+  justify-content: space-around;
+
+}
+.recipes_list_action_svg {
+  width:20px;
+  height:20px;
+  margin-right: 12px;
+}
+
+.recipes_svg1{
+  color: $color-yellow;
+}
+
+.recipes_svg2{
+  color: $color-tomato;
+}
+
+//.recipes_list_table_td div {
+//  margin-left: 10px;
+//}
+
+//.div_p {
+//  margin-left:10px;
+//}

@@ -1,0 +1,177 @@
+.main-app-desktop-container {
+  width: 980px;
+  height: 629px;
+  margin-top: 20px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid $color-light-grey-2;
+
+    &__h6 {
+      font-size: 24px;
+      color: $color-crazy-orange;
+      text-transform: uppercase;
+      line-height: 35px;
+    }
+    &__button {
+      background-color: $color-crazy-orange;
+      color: $color-white;
+      border: none;
+      padding: 6px 12px;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  }
+  &__info {
+    width: 800px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 24px;
+    color: $color-light-grey-1;
+    display: flex;
+    text-align: left;
+    &__p {
+
+      &__name{
+        font-size: 24px;
+        width: 180px;
+      }
+      &__description {
+        font-size: 24px;
+        margin-top: 30px;
+      }
+    }
+
+    &__input {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+      font-size: 14px;
+      border-radius: 0;
+      border-color: $color-light-grey-2;
+      &__name{
+        height: 30px;
+        width: 695px;
+      }
+      &__description {
+        margin-top: 30px;
+        height: 72px;
+      }
+    }
+  }
+}
+
+.container__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  width: 970px;
+  margin-left: 18px;
+  &__instructions {
+    &__tittle {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: $color-light-grey-1;
+      width: 460px;
+      height: 50px;
+      border-bottom: 2px solid $color-light-grey-2;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 5px;
+    }
+
+    &__text {
+      width: 460px;
+      margin-top: 15px;
+      display: flex;
+      &__input {
+        width: 460px;
+        height: 76px;
+        margin-right: 3px;
+      }
+      &__button {
+        background: url(../../images/cross.png);
+        height: 29px;
+        width: 29px;
+        border: transparent;
+        border-radius: 4px;
+        opacity: 0.8;
+      }
+    }
+  }
+  &__ingredients {
+    &__tittle {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: $color-light-grey-1;
+      width: 460px;
+      height: 50px;
+      border-bottom: 2px solid $color-light-grey-2;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 5px;
+    }
+
+    &__text {
+      width: 460px;
+      margin-top: 15px;
+      display: flex;
+      &__input {
+        width: 460px;
+        height: 37px;
+        margin-right: 3px;
+      }
+      &__button {
+        background: url(../../images/cross.png);
+        height: 29px;
+        width: 29px;
+        border: transparent;
+        border-radius: 4px;
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.container__bottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  width: 970px;
+  height: 185px;
+  margin-left: 18px;
+  &__left {
+    width: 440px;
+    overflow: auto;
+    &__list {
+      font-size: 16px;
+      line-height: 22px;
+      li {
+        list-style-type: decimal;
+        display: list-item;
+        list-style-position: inside;
+      }
+    }
+  }
+  &__right {
+    width: 460px;
+    padding-right: 30px;
+    overflow: auto;
+    padding-left: 0;
+    &__list {
+      font-size: 16px;
+      line-height: 22px;
+      li {
+        list-style-type: disc;
+        display: list-item;
+        list-style-position: inside;
+      }
+    }
+  }
+}
+
+
+

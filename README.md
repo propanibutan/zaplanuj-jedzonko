@@ -10,7 +10,7 @@
 
 This is project in CodersLab 'ScrumLab' which I made with my colleagues ([Katarzyna Zielińska](https://github.com/kattziel), [Krzysztof Korbiński](https://github.com/kristoffer4k), [Wiktor Richter](https://github.com/Wiktorri)). Here you can find landing page with app to building your own diet schedule.
 
-## Technologie i narzędzia / Technologies
+## Technologies
 
 - **Javascript**, 
 - **localStorage**,
